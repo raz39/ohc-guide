@@ -8,17 +8,12 @@ describe("Signup Test", () => {
 
     it("Test valid signup", () => {
         cy.visit("https://ohcguide.com/");
-        cy.get(".cdk-overlay-backdrop").click(-50, -50, {force: true})
-        cy.get('#navbarAccount').click();
-        cy.get('#navbarLoginButton').click();
-        cy.get('#newCustomerLink').contains("Not yet a customer?").click({force: true});
-        cy.get('#emailControl').type(email);
-        cy.get('#passwordControl').type(password);
-        cy.get('#repeatPasswordControl').type(password);
-        cy.get('.mat-form-field-type-mat-select > .mat-form-field-wrapper > .mat-form-field-flex > .mat-form-field-infix').click();
-        cy.get('#mat-option-3 > .mat-option-text').click();
-        cy.get('#securityAnswerControl').type(securityAnswer)
-        cy.get('#registerButton').click();
-        cy.get('.mat-snack-bar-container').contains('Registration completed successfully.');
-    })
-})
+        cy.get(".flex-row [type='button']:nth-of-type(2)").click();
+        cy.get('#individual').click();
+        cy.get("#first-name").type("rajeev");
+        cy.get('#last-name').type("lamichhane");
+        cy.get('#email').type(email);
+        cy.get('#phone').type(123456789);
+        cy.get('#').contains("Not yet a customer?").click({force: true});
+      
+})})
