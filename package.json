@@ -1,0 +1,22 @@
+{
+  "name": "ohc-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raz39/ohc-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raz39/ohc-guide/issues"
+  },
+  "homepage": "https://github.com/raz39/ohc-guide#readme",
+  "devDependencies": {
+    "cypress": "^12.2.0"
+  }
+}
