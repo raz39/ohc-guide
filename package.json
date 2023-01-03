@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/raz39/ohc-guide#readme",
   "devDependencies": {
-    "cypress": "^12.2.0"
+    "cypress": "^8.4.1"
   }
 }
