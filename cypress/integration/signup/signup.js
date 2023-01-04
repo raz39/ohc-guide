@@ -62,4 +62,4 @@ describe("Signup Test", () => {
         cy.get('.checkbox__CheckboxLabel-sc-1lx9a1q-2').click();
         cy.get('.button__RegularButtonStyle-sc-12v0ze9-0').click();
 
-})})
+})}) 
