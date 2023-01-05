@@ -1,4 +1,5 @@
-
+/// <reference types="cypress" />
+/// <reference types="cypress-xpath" />
 
 describe("Signup Test", () => {
  let randomString = Math.random().toString(36).substring(2);
